@@ -1,0 +1,48 @@
+{
+    names:["Juan Ramírez","Julia Pérez","Oscar Gómez"],
+    classes:{
+      classI: {
+        seriesE: {
+          "Juan Ramírez": 300000
+        },
+        seriesF: {
+          "Juan Ramírez": 100000,
+          "Julia Pérez": 50000,
+          "Oscar Gómez": 100000
+        },
+        seriesR: {
+          "Julia Pérez": 100000
+        }
+      },
+      classII: {
+        seriesE: {
+          "Juan Ramírez": 100000
+        },
+        seriesF: {
+          "Julia Pérez": 50000,
+          "Oscar Gómez": 100000
+        }
+      },
+      classIII: {
+        seriesA: {
+          "Juan Ramírez": 25000
+        },
+        seriesE: {
+          "Oscar Gómez": 50000
+        },
+        seriesF: {},
+        seriesL: {
+          "Julia Pérez": 50000
+        },
+        seriesR: {
+          "Juan Ramírez": 25000,
+          "Oscar Gómez": 50000
+        }
+      }
+    },
+    percentCap:{
+      "Juan Ramírez": 50,
+      "Julia Pérez": 20,
+      
+    }
+  }
