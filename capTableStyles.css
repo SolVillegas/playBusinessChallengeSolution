@@ -1,0 +1,81 @@
+/*
+    Styles for the table CapTableData and subtables Series from Classes
+    Bootstrap 4 is used for collapse column animation
+*/
+
+
+.cap-table{
+    margin: 40px;
+}
+.title-table{
+    width: max-content;
+    font-weight: bold;
+
+}
+
+
+.vertical-text{
+    transform: rotate(270deg);
+    transform-origin: bottom;
+
+}
+#percent-column{
+    width: auto;
+   
+}
+.card-body div{
+    padding: 8px;
+}
+
+.nopadding {
+padding: 0 !important;
+margin: 0 !important;
+}
+
+.sub-tables-class{
+
+    width: 100%;
+}
+.sub-tables-class table,th,tr,td{
+    text-align: center;
+    padding: 8px;
+}
+.classes{
+    background-color:#f0f0f0;
+}
+
+/*CSS animation */
+.accordion { 
+    text-align: center; 
+} 
+    
+.accordion.width { 
+    display: flex; 
+    width: 200px; 
+} 
+    
+.accordion.width .card { 
+    flex-direction: row; 
+    min-width: min-content; 
+} 
+    
+.accordion.width .card .card-header { 
+    cursor: pointer; 
+    transform: rotate(180deg); 
+    writing-mode: vertical-rl; 
+    
+} 
+    
+.card{
+    border: none;
+}
+.card-body { 
+    width: max-content;  
+    padding: 0%;
+} 
+    
+.collapsing.width { 
+    transition: width 0.5s ease; 
+    height: auto; 
+    width: 40px; 
+} 
