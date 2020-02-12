@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!-- Bootstrap CSS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" >
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" ></script>
+<script type="text/javascript" src="script.js"></script>
+<link rel="stylesheet" href="capTableStyles.css" >
+
+<title></title>
+<style>
+    body{
+        display: flex;
+    }
+    
+    .sidebar{
+        width: 350px;
+    }
+    
+    .content{
+        display: inline;
+    }
+  
+</style>
+
+</head>
+<body>
+    <div class="sidebar">
+        <div style="width:auto;" ></div>
+    </div>    
+    <div class="content">
+
+        <h4 style="padding: 5%;">Estructura accionaria del solicitante</h4>
+        <div class="cap-table">
+            <div class="container" >
+                <div class="row">
+                    <div class="col-md nopadding" >
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="title-table">Nombre completo</div>
+                                <div class="border-top font-weight-bold" style="padding: 8px;">Series</div>
+                                <div id="names-column"></div>
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-md nopadding">
+                        <div class="accordion width" id="accordionClasses">
+                            <div  id="classI" class="card classes">
+                                <div id="" class="class-header title-table" data-toggle="collapse"  role="button" data-target="#collapse-classI">
+                                   <div>
+                                    <p id="classITitle" class="vertical-text">Clase I </p> 
+                                    <div id="spinner-classI" style="visibility: hidden;">
+                                        <div class="spinner-grow spinner-grow-sm" role="status">
+                                            <span class="sr-only">Loading...</span>
+                                          </div>
+                                    </div>
+
+                                   </div>
+                                   
+                                   
+                                </div>
+                                <div id="collapse-classI" class="collapse width"  data-parent="#accordionClasses">
+                                    <div class="card-body">
+                                        <div style="padding: 8px;">&nbsp;</div>
+                                        <div id="classI-table">
+                                    
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card classes" id="classII">
+                                <div class="class-header title-table" data-toggle="collapse"  role="button" data-target="#collapse-classII">
+                                    <p id="classIITitle" class="vertical-text">Clase II </p>
+                                    <div id="spinner-classII" style="visibility: hidden;">
+                                        <div class="spinner-grow spinner-grow-sm" role="status">
+                                            <span class="sr-only">Loading...</span>
+                                          </div>
+                                    </div> 
+                                </div>
+                                <div id="collapse-classII" class="collapse width"  data-parent="#accordionClasses">
+                                    <div class="card-body">
+                                        <div style="padding: 8px;">&nbsp;</div>
+                                        <div id="classII-table">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card classes" id="classIII">
+                                <div class="class-header title-table" data-toggle="collapse"  role="button" data-target="#collapse-classIII">
+                                    <p id="classIIITitle" class="vertical-text">Clase III </p> 
+                                    <div id="spinner-classIII" style="visibility: hidden;">
+                                        <div class="spinner-grow spinner-grow-sm" role="status">
+                                            <span class="sr-only">Loading...</span>
+                                          </div>
+                                    </div>
+                                </div>
+                                <div id="collapse-classIII" class="collapse width"  data-parent="#accordionClasses">
+                                    <div class="card-body">
+                                        <div>&nbsp;</div>
+                                        <div id="classIII-table">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="col-md nopadding">
+                                    <div class="card">
+                                        <div class="card-body ">
+                                           
+                                            <div class="title-table font-weight-bold">% de la empresa</div>
+                                            <div class="border-top">&nbsp;</div>
+                                            <div id="percent-column">
+                                            
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+            
+                        </div>
+                    </div>
+                </div>
+            </div>
+             
+        </div>    
+    
+    </div>
+    
+</body> 
+</html>                            
